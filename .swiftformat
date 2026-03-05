@@ -1,0 +1,13 @@
+--swiftversion 5.9
+--indent 4
+--wraparguments before-first
+--wrapcollections before-first
+--maxwidth 130
+--semicolons never
+--stripunusedargs closure-only
+--self remove
+--importgrouping testable-bottom
+--commas always
+--trimwhitespace always
+--decimalgrouping 3,4
+--header strip

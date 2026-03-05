@@ -1,0 +1,14 @@
+FireRedVADKit
+Copyright 2025 FireRedVADKit Contributors
+
+This product includes software derived from FireRedVAD:
+  https://huggingface.co/FireRedTeam/FireRedVAD
+  Copyright 2024 FireRedTeam
+  Licensed under the Apache License, Version 2.0
+
+Changes from the original:
+- Converted DFSMN Stream-VAD model from PyTorch to CoreML format
+- Reimplemented Kaldi-compatible fbank feature extraction in Swift/Accelerate
+- Extracted and hardcoded CMVN statistics from pretrained/Stream-VAD/cmvn.ark
+- Implemented streaming VAD postprocessor state machine in Swift
+- Packaged as Swift Package for Apple platforms (macOS/iOS)

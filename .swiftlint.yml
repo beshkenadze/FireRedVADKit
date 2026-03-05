@@ -1,0 +1,36 @@
+included:
+  - Sources
+  - Tests
+
+excluded:
+  - .build
+  - Tools
+
+disabled_rules:
+  - trailing_comma
+  - todo
+  - identifier_name
+  - nesting
+
+opt_in_rules:
+  - empty_count
+  - closure_spacing
+  - force_unwrapping
+  - implicitly_unwrapped_optional
+  - overridden_super_call
+
+line_length:
+  warning: 130
+  error: 160
+
+type_body_length:
+  warning: 300
+  error: 500
+
+file_length:
+  warning: 500
+  error: 800
+
+function_body_length:
+  warning: 60
+  error: 100
